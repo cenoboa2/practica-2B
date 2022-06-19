@@ -1,0 +1,51 @@
+/* manejo de las características de la etiqueta body*/
+body {
+    background: #FEFEFD;
+    padding: 30px;
+  }
+  /* manejo de las características de la etiqueta table*/
+  th, td {
+    padding: 15px;
+    border-bottom: 1px solid black;
+  }
+  tr:hover {
+    background-color: #cbeefc;
+  }
+  input[type=text], input[type=number] {
+    width: 100%;
+    padding: 5px 5px;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus {
+    border: 5px solid rgb(83, 10, 255);
+  }
+  label {
+    padding: 10px 8px;
+    font-weight: bold;
+  }
+  /* manejo de las características de las clases*/
+  .colorceldsprintfa{
+    background: #0703f0;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .miformulario{
+    width: 50%;
+    max-width: 300px;
+    display: flex;
+    left: 50%;
+  }
+
+  input#enviar:hover{
+    color: #000000;
+    background-color: hsl(321, 33%, 92%);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  button.btn:hover{
+    color: #000000;
+    background-color: hsl(321, 33%, 92%);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
